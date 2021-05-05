@@ -1,0 +1,103 @@
+/* body{
+    background: url('images/dora.jpg') !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+} */
+html {
+    scroll-behavior: smooth;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    }
+
+  img.img-fluid.my-photo {
+    width: 200px;
+    margin-bottom: 30px;
+    border: 5px solid skyblue;
+    border-radius: 4px;
+}
+.nav-item{
+    padding-left: 1rem;
+}
+.navbar ul li .fa{
+    color: skyblue;
+    
+}
+.navbar ul li a{
+    color: skyblue;
+}
+.navbar ul{
+    list-style:none;
+}
+.bg-light,
+h5.card-header{
+    background-color: rgba(0,0,0,.7) !important;
+}
+a.nav-link,
+h5.card-header{
+    color: #b0e6ab !important;
+    padding: 1rem;
+}
+.photo-gallery .col-md-3{
+    border: 1px solid #CCC;
+    border-radius: 4px;
+}
+.row{
+    margin-bottom:15px;
+}
+.card-body {
+    background: rgba(255, 255, 255, 0.8) !important;
+
+}
+.card {
+    background: rgba(255,255,255,.4) !important;
+}
+img.img-fluid.logo {
+    width: 80px;
+}
+.my-photo{
+font-size:20px;
+text-align:center;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+p{
+    text-indent: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+#fullName{
+    font-size: medium;
+}
+#emailAd{
+    font-size: medium;
+}
+#phoneNum{
+    font-size: medium;
+}
+#textMessage{
+    font-size: medium;
+}
+#features-carousel{
+    width: 60%;
+    height: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1rem;
+}
+a:hover {
+    color: rgba(106, 193, 233, 0.527) !important;
+}
+ul li{
+    list-style: none;
+}
